@@ -4,8 +4,8 @@ import pandas as pd
 import os
 
 # Path to the input folder
-input_folder = r'C:\Users\nefer\Downloads\EEG_DE_features\EEG_DE_features'
-output_folder = r'C:\Users\nefer\Downloads\EEG_DE_features\EEG_DE_features\output'
+input_folder = r'FilePath\EEG_DE_features'
+output_folder = r'FilePath\EEG_DE_features\output'
 
 # Ensure the output folder exists
 os.makedirs(output_folder, exist_ok=True)
