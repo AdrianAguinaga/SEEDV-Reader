@@ -26,5 +26,4 @@ Save the DataFrame to a CSV file.
 Combine All CSV Files:
 
 Read all the generated CSV files.
-Concatenate them into a single DataFrame, ignoring redundant headers.
-Save the combined DataFrame to a final CSV file.
+Concatenate them into a single DataFrame and ignore the redundant headers and create the CSV that contains the concatenated data of all the experiments.
