@@ -19,11 +19,10 @@ For each file:
 Load the data and labels using numpy and pickle.
 Extract specific subsets of the data based on predefined indices for different emotional states (happy, neutral, sad, disgust).
 Concatenate the subsets for each emotional state.
+
 Add an extra column to each subset with a specific value to label the emotional state (0 for happy, 3 for neutral, 2 for sad, and 1 for disgust).
 Combine all labeled subsets into a single array.
+
 Convert the array to a pandas DataFrame with appropriate column names.
 Save the DataFrame to a CSV file.
-Combine All CSV Files:
-
-Read all the generated CSV files.
-Concatenate them into a single DataFrame and ignore the redundant headers and create the CSV that contains the concatenated data of all the experiments.
+Combine All CSV Files: Concatenate them into a single DataFrame and ignore the redundant headers and create the CSV that contains the concatenated data of all the experiments.
