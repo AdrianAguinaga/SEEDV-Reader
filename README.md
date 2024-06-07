@@ -1,5 +1,5 @@
 # SEEDV-Reader
-This script processes SEEDV data stored in multiple .npz files, concatenates specific subsets, labels them, and saves the results in CSV format(this file only uses 4 of the 5 emotions contained in SEEDV, in order to match the experiment. 
+This script processes SEEDV data stored in multiple .npz files, concatenates specific subsets, labels them, and saves the results in CSV format(this file only uses 4 of the 5 emotions contained in SEEDV, in order to match the experiment.) 
 
 Steps:
 Import Necessary Libraries:
